@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VCVS Sankeshwar</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet" />
+
+    <link rel="stylesheet" href="{{url_for('static',filename='css/bootstrap.min.css')}}">
+    <link href="{{url_for('static',filename='fontawesome/css/all.min.css')}}" rel="stylesheet" /> <!-- https://fontawesome.com/ -->
+    <link href="{{url_for('static',filename='slick/slick.css')}}" rel='stylesheet' /> <!-- https://kenwheeler.github.io/slick/ -->
+    <link href="{{url_for('static',filename='slick/slick-theme.css')}}" rel='stylesheet' />
+    <link href="{{url_for('static',filename='css/templatemo-real-dynamic.css')}}" rel="stylesheet" />
+    <link href="{{url_for('static',filename='css/magnific-popup.min.css')}}" rel="stylesheet" />
+   
+<!--
+
+TemplateMo 547 Real Dynamic
+
+https://templatemo.com/tm-547-real-dynamic
+
+-->
+</head>
+
+<body>
+    <div class="tm-container">
+        <div class="tm-site-header"></div> <!-- tm-site-header -->
+        <div class="tm-site-header-overlay">
+            <div class="tm-header-stripe ml-auto"></div>
+            <div class="tm-header-stripe tm-header-stripe-short ml-auto"></div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 tm-site-header-left">
+                        <h3 class="text-uppercase tm-site-name">Vishwa Chetana Vidya Trust</h3>
+                        <p class="text-white mb-0 tm-site-desc">Swami Vivekananda Kannada Medium School Sankeshwar</p>
+                    </div>
+                    <div class="col-lg-8 tm-site-header-right">
+                        <!--Navbar-->
+                        <nav class="navbar navbar-expand-lg">
+
+                            <!-- Collapse button -->
+                            <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
+                                data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation"><span class="dark-blue-text"><i class="fas fa-bars text-white"></i></span></button>
+
+                            <!-- Collapsible content -->
+                            <div class="collapse navbar-collapse tm-nav" id="navbarNav">
+                                <!-- Links -->
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link tm-nav-link" href="{{url_for('home')}}">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link tm-nav-link" href="{{url_for('about')}}">About</a>
+                                    </li>
+                                    <li class="nav-item active">
+                                        <a class="nav-link tm-nav-link" href="{{url_for('gallery')}}">Gallery <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link tm-nav-link" href="{{url_for('contact')}}">Contact</a>
+                                    </li>
+                                </ul>
+                                <!-- Links -->
+                            </div>
+                            <!-- Collapsible content -->
+                        </nav>
+                        <!--/.Navbar-->
+                    </div> <!-- col -->
+                </div> <!-- row -->
+            </div> <!-- container fluid -->
+        </div> <!-- tm-site-header-overlay -->
+        <div class="tm-header-stripe w-100"></div>
+    </div>
+    <div class="tm-container">
+        <div class="parallax-window" data-parallax="scroll" data-image-src="/static/img/real-dynamic-banner-01.jpg"></div>
+    </div>
+
+    <div class="tm-container bg-white">
+        <div class="tm-header-stripe w-100"></div>
+        <div class="container-fluid">
+            <div class="row tm-mb-1">
+                <div class="col-12">
+                    <h2 class="tm-text-primary text-center tm-my-1 tm-mb-5 tm-intro-text">Swami Vivekananda Kannada Medium School</h2>
+                </div>
+                <div class="col-12 tm-page-cols-container">
+                    <div class="tm-page-col-left">
+                        <ul class="tabs clearfix filters-button-group">
+                            <li>
+                                <a href="#" class="active tm-category-link" data-filter=".category-1">
+                                    <div class="tm-thumbnails">
+                                        <img src="/static/img/gallery/gallery-item-01.jpg" alt="Thumbnail" class="tm-thumbnail">
+                                        <img src="/static/img/gallery/gallery-item-02.jpg" alt="Thumbnail" class="tm-thumbnail">
+                                        <img src="/static/img/gallery/gallery-item-03.jpg" alt="Thumbnail" class="tm-thumbnail">
+                                        <img src="/static/img/gallery/gallery-item-04.jpg" alt="Thumbnail" class="tm-thumbnail">
+                                    </div>
+                                    <span class="tm-category-label">Cultural Events</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="tm-category-link" data-filter=".category-2">
+                                    <div class="tm-thumbnails">
+                                        <img src="/static/img/gallery/gallery-item-19.jpg" alt="Thumbnail" class="tm-thumbnail">
+                                        <img src="/static/img/gallery/gallery-item-20.jpg" alt="Thumbnail" class="tm-thumbnail">
+                                        <img src="/static/img/gallery/gallery-item-21.jpg" alt="Thumbnail" class="tm-thumbnail">
+                                        <img src="/static/img/gallery/gallery-item-22.jpg" alt="Thumbnail" class="tm-thumbnail">
+                                    </div>
+                                    <span class="tm-category-label">School Strength</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="tm-category-link" data-filter=".category-3">
+                                    <div class="tm-thumbnails">
+                                        <img src="/static/img/gallery/gallery-item-31.jpg" alt="Thumbnail" class="tm-thumbnail">
+                                        <img src="/static/img/gallery/gallery-item-32.jpg" alt="Thumbnail" class="tm-thumbnail">
+                                        <img src="/static/img/gallery/gallery-item-33.jpg" alt="Thumbnail" class="tm-thumbnail">
+                                        <img src="/static/img/gallery/gallery-item-42.png" alt="Thumbnail" class="tm-thumbnail">
+                                    </div>
+                                    <span class="tm-category-label">Schoom Warming Ceremony</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="tm-category-link" data-filter=".category-4">
+                                    <div class="tm-thumbnails">
+                                        <img src="/static/img/gallery/gallery-item-34.jpg" alt="Thumbnail" class="tm-thumbnail">
+                                        <img src="/static/img/gallery/gallery-item-35.jpg" alt="Thumbnail" class="tm-thumbnail">
+                                        <img src="/static/img/gallery/gallery-item-36.jpg" alt="Thumbnail" class="tm-thumbnail">
+                                        <img src="/static/img/gallery/gallery-item-37.jpg" alt="Thumbnail" class="tm-thumbnail">
+                                    </div>
+                                    <span class="tm-category-label">Science Projects</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="tm-category-link" data-filter=".category-5">
+                                    <div class="tm-thumbnails">
+                                        <img src="/static/img/gallery/gallery-item-44.jpg" alt="Thumbnail" class="tm-thumbnail">
+                                        <img src="/static/img/gallery/gallery-item-45.jpg" alt="Thumbnail" class="tm-thumbnail">
+                                        <img src="/static/img/gallery/gallery-item-46.jpg" alt="Thumbnail" class="tm-thumbnail">
+                                        <img src="/static/img/gallery/gallery-item-47.jpg" alt="Thumbnail" class="tm-thumbnail">
+                                    </div>
+                                    <span class="tm-category-label">Various Events</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tm-page-col-right">
+                        <div class="tm-gallery" id="tmGallery">
+
+                            <div class="tm-gallery-item category-5">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-44.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-44.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="tm-gallery-item category-5">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-45.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-45.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-5">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-46.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-46.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-5">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-47.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>7
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-47.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-5">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-48.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-48.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-5">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-49.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-49.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-5">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-50.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-50.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-5">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-51.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-51.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-5">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-52.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-52.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-5">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-53.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-53.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-5">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-54.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-54.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-5">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-55.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-55.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-5">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-56.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-56.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-5">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-57.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-57.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-5">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-58.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-58.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-5">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-59.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-59.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-5">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-60.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-60.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-5">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-61.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-61.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-5">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-62.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-62.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-5">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-63.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-63.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-5">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-64.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-64.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-5">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-65.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-65.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-5">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-66.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-66.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-5">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-67.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-67.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+
+
+                            <div class="tm-gallery-item category-4">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-34.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-34.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-4">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-35.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-35.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-4">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-36.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-36.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-4">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-37.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-37.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-4">
+                                <figure class="effect-bubba">7
+                                    <img src="/static/img/gallery/gallery-item-38.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-38.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-4">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-39.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-39.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-4">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-40.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-40.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="tm-gallery-item category-3">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-41.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-41.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-3">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-42.png" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-42.png">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-3">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-43.png" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-43.png">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="tm-gallery-item category-3">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-31.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-31.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="tm-gallery-item category-3">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-32.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-32.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="tm-gallery-item category-3">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-33.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-33.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="tm-gallery-item category-2">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-19.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-19.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-2">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-20.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-20.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-2">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-21.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-21.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-2">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-22.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-22.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-2">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-23.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-23.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-2">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-24.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-24.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-2">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-25.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-25.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-2">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-26.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-26.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-2">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-27.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-27.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-2">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-28.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-28.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-2">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-29.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-29.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-2">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-30.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-30.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-1">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-01.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>One</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-01.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-1">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-02.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>Two</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-02.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-1">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-03.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>Three</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-03.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-1">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-04.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>Four</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-04.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-1">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-05.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>Five</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-05.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-1">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-06.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>Six</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-06.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-1">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-07.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>Seven</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-07.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-1">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-08.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>Eight</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-08.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-1">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-09.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>Nine</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-09.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-1">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-10.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>Nine</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-10.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-1">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-11.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>Eleven</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-11.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-1">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-12.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>Twelve</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-12.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-1">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-13.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>Thirteen</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-12.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-1">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-14.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>Fourteen</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-12.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-1">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-15.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>Fifteen</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-12.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-1">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-16.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>Sixteen</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-12.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-1">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-17.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>Seventeen</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-12.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-1">
+                                <figure class="effect-bubba">
+                                    <img src="/static/img/gallery/gallery-item-18.jpg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Image <span>Eighteen</span></h2>
+                                        <p>.</p>
+                                        <a href="/static/img/gallery/gallery-item-12.jpg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonials -->
+            <div class="tm-mb-2">
+                <h2 class="text-center tm-text-primary tm-h2-big tm-mb-6">Our Happy Parents and Students</h2>
+                <!-- Carousel -->
+                <div class="col-lg-6 mx-auto tm-mb-4">
+                    <div class="tm-carousel">
+                        <div class="text-center">
+                            <h3 class="tm-mb-4 tm-text-dark-gray">Rohit Sakhare</h3>
+                            <p class="tm-mb-4">Best school in Belgaum district Karnataka..
+				Kannada school as well as they teach english....
+				thanks for Desai sir and Patil madam..Service also good They provide Bus also 
+				Nice ground and location.. Secured with cctv  camera My child  future is 
+				secured and bright with this school.</p>
+                            <div class="rating">
+                                <span class="star fas fa-star checked"></span>
+                                <span class="star fas fa-star checked"></span>
+                                <span class="star fas fa-star checked"></span>
+                                <span class="star fas fa-star checked"></span>
+                                <span class="star fas fa-star checked"></span>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="tm-mb-4 tm-text-dark-gray">Sushma P</h3>
+                            <p class="tm-mb-4">Nice School.</p>
+                            <div class="rating">
+                                <span class="star fas fa-star checked"></span>
+                                <span class="star fas fa-star checked"></span>
+                                <span class="star fas fa-star checked"></span>
+                                <span class="star fas fa-star checked"></span>
+                                <span class="star fas fa-star "></span>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="tm-mb-4 tm-text-dark-gray">Mahesh Desai</h3>
+                            <p class="tm-mb-4">Nice. </p>
+                            <div class="rating">
+                                <span class="star fas fa-star checked"></span>
+                                <span class="star fas fa-star checked"></span>
+                                <span class="star fas fa-star checked"></span>
+                                <span class="star fas fa-star checked"></span>
+                                <span class="star fas fa-star"></span>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="tm-mb-4 tm-text-dark-gray">Darshan Patil</h3>
+                            <p class="tm-mb-4">Nice School.</p>
+                            <div class="rating">
+                                <span class="star fas fa-star checked"></span>
+                                <span class="star fas fa-star checked"></span>
+                                <span class="star fas fa-star checked"></span>
+                                <span class="star fas fa-star checked"></span>
+                                <span class="star fas fa-star checked"></span>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="tm-mb-4 tm-text-dark-gray">Atharva sansuddi </h3>
+                            <p class="tm-mb-4">#</p>
+                            <div class="rating">
+                                <span class="star fas fa-star checked"></span>
+                                <span class="star fas fa-star checked"></span>
+                                <span class="star fas fa-star checked"></span>
+                                <span class="star fas fa-star checked"></span>
+                                <span class="star fas fa-star checked"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ <div class="row tm-mb-7">
+                <div class="col-lg-3 col-sm-6 mb-lg-0 mb-5">
+                    <h3 class="tm-text-primary tm-mb-4">#</h3>
+                    <nav class="tm-nav-secondary">
+                        <ul>
+                            <li><a href="#">#</a></li>
+                            <li><a href="#">#</a></li>
+                            <li><a href="#">#</a></li>
+                            <li><a href="#">#</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-lg-0 mb-5">
+                    <h3 class="tm-text-primary tm-mb-4">Our Pages</h3>
+                    <nav class="tm-nav-secondary">
+                        <ul>
+                            <li><a href="#">Background</a></li>
+                            <li><a href="#">Our Mission</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Features</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-lg-0 mb-5">
+                    <h3 class="tm-text-primary tm-mb-4">Main Menu</h3>
+                    <nav class="tm-nav-secondary">
+                        <ul>
+                            <li><a href="{{url_for('home')}}">Home</a></li>
+                            <li><a href="{{url_for('about')}}">About</a></li>
+                            <li><a href="{{url_for('gallery')}}">Gallery</a></li>
+                            <li><a href="{{url_for('contact')}}">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-lg-0 mb-5">
+                    <h3 class="tm-text-primary tm-mb-4">Address</h3>
+                    <p class="tm-mb-4">Swami Vivekananda Kannada Medium School, Malhar Nagar, Sankeshwar<br>
+		1st and 2nd Floor Old P.B.Road, Subhash Road, Sankeshwar, Karnataka 591313<br>
+	         7F4P+95 Sankeshwar, Karnataka<br>
+	         call us - +91 8333274407</p>
+                    <div>
+                        <a href="https://youtube.com" class="tm-social-link"><i class="fab fa-youtube tm-social-icon"></i></a>
+                        <a href="https://fb.com/" class="tm-social-link"><i class="fab fa-facebook tm-social-icon"></i></a>
+                        <a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter tm-social-icon"></i></a>
+                        <a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram tm-social-icon"></i></a>
+                    </div>
+                </div>
+            </div>
+            <footer class="row">
+                <p class="mb-0 w-100 text-center col-12">
+                    vcvssnk &copy; 2020               
+                    <a rel="nofollow" href="#" class="tm-text-link"></a>
+                </p>
+            </footer>
+        </div> <!-- container-fluid -->
+    </div> <!-- tm-container -->
+
+    <script src="/static/js/jquery-3.4.1.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/parallax.min.js"></script>
+    <script src="/static/js/imagesloaded.pkgd.min.js"></script>
+    <script src="/static/js/isotope.pkgd.min.js"></script>
+    <script src="/static/js/jquery.magnific-popup.min.js"></script>
+    <script src="/static/slick/slick.min.js"></script>
+    <script src="/static/js/tooplate-script.js"></script>
+    <script>        
+        $(document).ready(function () {
+            /* Isotope Gallery */            
+            var $gallery = $(".tm-gallery").isotope({
+                itemSelector: ".tm-gallery-item",
+                filter: '.category-1'
+                // layoutMode: "fitRows"
+            });
+            // layout Isotope after each image loads
+            $gallery.imagesLoaded().progress(function () {
+                $gallery.isotope("layout");
+            });
+
+            $(".filters-button-group").on("click", "a", function () {
+                var filterValue = $(this).attr("data-filter");
+                $gallery.isotope({ filter: filterValue });
+            });
+
+            /* Categories */
+            $(".tabgroup > div").hide();
+            $(".tabgroup > div:first-of-type").show();
+            $(".tabs a").click(function (e) {
+                e.preventDefault();
+                var $this = $(this),
+                    tabgroup = "#" + $this.parents(".tabs").data("tabgroup"),
+                    others = $this
+                        .closest("li")
+                        .siblings()
+                        .children("a"),
+                    target = $this.attr("href");
+                others.removeClass("active");
+                $this.addClass("active");
+
+                // Scroll to tab content (for mobile)
+                if ($(window).width() < 992) {
+                    $("html, body").animate(
+                        {
+                            scrollTop: $("#tmGallery").offset().top
+                        },
+                        200
+                    );
+                }
+            });
+
+            // Magnific Pop up
+            $('.tm-gallery').magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                gallery: { enabled: true }
+            });
+
+            // Testimonials carousel
+            $('.tm-carousel').slick({
+                dots: true,
+                infinite: false,
+                speed: 300,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            });
+        });
+
+    </script>
+</body>
+
+</html>
